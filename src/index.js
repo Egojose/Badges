@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Badge from './components/Badge';
+import BadgeNew from './pages/BadgeNew';
 import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';
 
 
 const container = document.getElementById("app");
 
-ReactDOM.render(<Badge />, container);
+ReactDOM.render(<BadgeNew 
+    // firstName ="Jose" 
+    // lastName ="Vásquez" 
+    // avatarUrl ="https://www.gravatar.com/avatar?d=identicon"
+    // jobTitle ="Microbiologist" 
+    // twitter ="@jvasquez" 
+    />, container);
 
 
 
